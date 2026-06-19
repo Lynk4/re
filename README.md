@@ -9,10 +9,10 @@ Welcome to my personal repository of **Reverse Engineering (RE)**, **Binary Expl
 | Category | Solved | Status | Badges |
 | :--- | :---: | :---: | :--- |
 | **[ROP Emporium](./ROP-Emporium)** | `4` | In Progress | [![ROP Emporium](https://img.shields.io/badge/ROP_Emporium-Exploit_Dev-brightgreen?style=flat-square&logo=c&logoColor=white)](./ROP-Emporium) |
-| **[crackmes.one](./crackmes)** | `13` | Completed | [![crackmes.one](https://img.shields.io/badge/crackmes.one-Reversing-blue?style=flat-square&logo=python&logoColor=white)](./crackmes) |
-| **[Reversing.kr](./Reversing.kr)** | `1` | Completed | [![Reversing.kr](https://img.shields.io/badge/Reversing.kr-Reversing-informational?style=flat-square&logo=windows&logoColor=white)](./Reversing.kr) |
-| **[pwnable.kr](./pwnable.kr)** | `8` | Completed | [![pwnable.kr](https://img.shields.io/badge/pwnable.kr-Pwn-orange?style=flat-square&logo=linux&logoColor=white)](./pwnable.kr) |
-| **[x86 Assembly](./x86-Assembly)** | `7` | Completed | [![x86-Assembly](https://img.shields.io/badge/x86_Assembly-Low_Level-blueviolet?style=flat-square&logo=assemblyscript&logoColor=white)](./x86-Assembly) |
+| **[crackmes.one](./crackmes)** | `13` | In Progress | [![crackmes.one](https://img.shields.io/badge/crackmes.one-Reversing-blue?style=flat-square&logo=python&logoColor=white)](./crackmes) |
+| **[Reversing.kr](./Reversing.kr)** | `1` | In Progress | [![Reversing.kr](https://img.shields.io/badge/Reversing.kr-Reversing-informational?style=flat-square&logo=windows&logoColor=white)](./Reversing.kr) |
+| **[pwnable.kr](./pwnable.kr)** | `8` | In Progress | [![pwnable.kr](https://img.shields.io/badge/pwnable.kr-Pwn-orange?style=flat-square&logo=linux&logoColor=white)](./pwnable.kr) |
+| **[x86 Assembly](./x86-Assembly)** | `7` | In Progress | [![x86-Assembly](https://img.shields.io/badge/x86_Assembly-Low_Level-blueviolet?style=flat-square&logo=assemblyscript&logoColor=white)](./x86-Assembly) |
 ---
 
 ## 🗂️ Challenge Index
