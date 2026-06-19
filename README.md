@@ -94,4 +94,4 @@ These are the primary tools used throughout the solutions in this repository:
 | **Low-Level Tools** | **nasm**, **gcc**, **make**, **checksec**, **UPX** | Writing, building, securing, and unpacking binaries. |
 
 ---
-s
+
