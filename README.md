@@ -93,37 +93,4 @@ These are the primary tools used throughout the solutions in this repository:
 | **Low-Level Tools** | **nasm**, **gcc**, **make**, **checksec**, **UPX** | Writing, building, securing, and unpacking binaries. |
 
 ---
-
-## 🚀 Getting Started
-
-If you want to run or test these exploits locally:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/kant/re.git
-   cd re
-   ```
-
-2. **Run a solve script:**
-   For example, to run the pwnable.kr input script:
-   ```bash
-   cd pwnable.kr/input
-   python3 solve.py
-   ```
-
-3. **Compile Assembly Projects:**
-   Go to any Assembly folder and run `make`:
-   ```bash
-   cd x86-Assembly/calculator
-   make
-   ./calculator
-   ```
-
----
-
-> [!NOTE]
-> All binary exploitation, assembly, and reversing tasks are completed strictly for educational and self-improvement purposes.
-
-```
-       [+] Made with 💻 and ☕ by Kant [+]
-```
+s
