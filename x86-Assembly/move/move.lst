@@ -1,0 +1,43 @@
+     1                                  ;move.asm
+     2                                  section .data
+     3 00000000 7B                          bNum    db 123
+     4 00000001 3930                        wNum    dw 12345
+     5 00000003 D2029649                    dNum    dd 1234567890
+     6 00000007 1581E97DF4102211            qNum1   dq 1234567890123456789
+     7 0000000F 40E2010000000000            qNum2   dq 123456
+     8 00000017 1F85EB51B81E0940            qNum3   dq 3.14
+     9                                  
+    10                                  section .bss
+    11                                  
+    12                                  section .text
+    13                                      global main
+    14                                      
+    15                                  main:
+    16 00000000 55                          push    rbp
+    17 00000001 4889E5                      mov     rbp, rsp
+    18 00000004 48C7C0FFFFFFFF              mov     rax, -1             ;fil rax with 1s
+    19 0000000B 8A0425[00000000]            mov     al, byte [bNum]     ;does not clear upper bits of rax
+    20 00000012 4831C0                      xor     rax, rax            ;clears the rax
+    21 00000015 8A0425[00000000]            mov     al, byte [bNum]     ;now rax has correct value
+    22                                      
+    23 0000001C 48C7C0FFFFFFFF              mov     rax, -1             ;fil rax with 1s
+    24 00000023 668B0425[01000000]          mov     ax, word [wNum]     ;does not clear upper bits of rax
+    25 0000002B 4831C0                      xor     rax, rax            ;clears the rax
+    26 0000002E 668B0425[01000000]          mov     ax, word [wNum]     ;now rax has correct value
+    27                                      
+    28 00000036 48C7C0FFFFFFFF              mov     rax, -1             ;fil rax with 1s
+    29 0000003D 488B0425[07000000]          mov     rax, qword [qNum1]  ;does clear upper bits of rax
+    30 00000045 48890425[0F000000]          mov     qword [qNum2], rax  ; one operands always a registers
+    31 0000004D B840E20100                  mov     rax, 123456         ;source operands an immediare value
+    32                                      
+    33 00000052 F20F100425-                 movsd     xmm0, [qNum3]       ;instruction for floating point
+    33 00000057 [17000000]         
+    34                                      
+    35 0000005B 4889EC                      mov     rsp, rbp
+    36 0000005E 5D                          pop     rbp
+    37                                      
+    38 0000005F C3                          ret
+    39                                      
+    40                                      
+    41                                      
+    42                                      
