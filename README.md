@@ -6,12 +6,14 @@ Welcome to my personal repository of **Reverse Engineering (RE)**, **Binary Expl
 
 ## 📊 Repository Quick Stats
 
-| Category | Solved / Total | Status | Badges |
+## 📊 Repository Quick Stats
+
+| Category | Solved | Status | Badges |
 | :--- | :---: | :---: | :--- |
-| **[ROP Emporium](./ROP-Emporium)** | `4 / 8` | In Progress | [![ROP Emporium](https://img.shields.io/badge/ROP_Emporium-4_/_8_Solved-brightgreen?style=flat-square&logo=c&logoColor=white)](./ROP-Emporium) |
-| **[crackmes.one](./crackmes)** | `13 / 13` | Completed | [![crackmes.one](https://img.shields.io/badge/crackmes.one-13_Solved-blue?style=flat-square&logo=python&logoColor=white)](./crackmes) |
-| **[pwnable.kr](./pwnable.kr)** | `8 / 8` | Completed | [![pwnable.kr](https://img.shields.io/badge/pwnable.kr-8_Solved-orange?style=flat-square&logo=linux&logoColor=white)](./pwnable.kr) |
-| **[x86 Assembly](./x86-Assembly)** | `7 / 7` | Completed | [![x86-Assembly](https://img.shields.io/badge/x86--Assembly-7_Projects-blueviolet?style=flat-square&logo=assemblyscript&logoColor=white)](./x86-Assembly) |
+| **[ROP Emporium](./ROP-Emporium)** | `4` | In Progress | [![ROP Emporium](https://img.shields.io/badge/ROP_Emporium-4_/_8_Solved-brightgreen?style=flat-square&logo=c&logoColor=white)](./ROP-Emporium) |
+| **[crackmes.one](./crackmes)** | `13` | In Progress | [![crackmes.one](https://img.shields.io/badge/crackmes.one-13_Solved-blue?style=flat-square&logo=python&logoColor=white)](./crackmes) |
+| **[pwnable.kr](./pwnable.kr)** | `8` | In Progress | [![pwnable.kr](https://img.shields.io/badge/pwnable.kr-8_Solved-orange?style=flat-square&logo=linux&logoColor=white)](./pwnable.kr) |
+| **[x86 Assembly](./x86-Assembly)** | `7` | In Progress | [![x86-Assembly](https://img.shields.io/badge/x86--Assembly-7_Projects-blueviolet?style=flat-square&logo=assemblyscript&logoColor=white)](./x86-Assembly) |
 
 ---
 
