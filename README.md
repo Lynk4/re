@@ -6,12 +6,11 @@ Welcome to my personal repository of **Reverse Engineering (RE)**, **Binary Expl
 
 ## 📊 Repository Quick Stats
 
-## 📊 Repository Quick Stats
-
 | Category | Solved | Status | Badges |
 | :--- | :---: | :---: | :--- |
 | **[ROP Emporium](./ROP-Emporium)** | `4` | In Progress | [![ROP Emporium](https://img.shields.io/badge/ROP_Emporium-Exploit_Dev-brightgreen?style=flat-square&logo=c&logoColor=white)](./ROP-Emporium) |
 | **[crackmes.one](./crackmes)** | `13` | Completed | [![crackmes.one](https://img.shields.io/badge/crackmes.one-Reversing-blue?style=flat-square&logo=python&logoColor=white)](./crackmes) |
+| **[Reversing.kr](./Reversing.kr)** | `1` | Completed | [![Reversing.kr](https://img.shields.io/badge/Reversing.kr-Reversing-informational?style=flat-square&logo=windows&logoColor=white)](./Reversing.kr) |
 | **[pwnable.kr](./pwnable.kr)** | `8` | Completed | [![pwnable.kr](https://img.shields.io/badge/pwnable.kr-Pwn-orange?style=flat-square&logo=linux&logoColor=white)](./pwnable.kr) |
 | **[x86 Assembly](./x86-Assembly)** | `7` | Completed | [![x86-Assembly](https://img.shields.io/badge/x86_Assembly-Low_Level-blueviolet?style=flat-square&logo=assemblyscript&logoColor=white)](./x86-Assembly) |
 ---
@@ -48,6 +47,15 @@ Welcome to my personal repository of **Reverse Engineering (RE)**, **Binary Expl
 | **[crackc_by_pride](./crackmes/crackc_by_pride)** | Analyzing C-style string comparison flow. | Decompiler | [Writeup](./crackmes/crackc_by_pride/README.md) |
 | **[CrackMe_V3_Marquire](./crackmes/CrackMe_V3_Marquire)** | Logic reconstruction and memory comparison check. | Ghidra | [Writeup](./crackmes/CrackMe_V3_Marquire/README.md) |
 | **[my first crackme](./crackmes/my%20first%20crackme)** | Reviewing static validation checks. | Static Analysis | [Writeup](./crackmes/my%20first%20crackme/README.md) |
+
+---
+
+### 🧠 [Reversing.kr](./Reversing.kr)
+> Windows and Linux reversing challenges focusing on debugger-assisted static and dynamic analysis.
+
+| Challenge | Core Reversing Focus / Technique | Solved With | Solution / Writeup |
+| :--- | :--- | :---: | :---: |
+| **[Easy Crack](./Reversing.kr)** | Step-by-step memory inspection and API breakpoints (`GetDlgItemTextA`) | x32dbg | [Writeup](./Reversing.kr/README.md) |
 
 ---
 
